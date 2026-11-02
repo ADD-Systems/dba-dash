@@ -1,0 +1,56 @@
+{
+	"schemaVersion": 3,
+	"manifestRevision": 21,
+	"publishedUtc": "2026-11-01T20:00:00Z",
+	"expiresUtc": "2026-11-15T20:00:00Z",
+
+	"central":
+	{
+		"version": "4.23.1",
+
+		"validation":
+		{
+			"version": "4.23.1",
+			"status": "Holding",
+			"validatedUtc": "2026-11-01T20:15:00Z",
+			"packageSha256": "F93D1E3E327C35FEA007D70B08128F1C6B71C47ECC30979A4F83C7E572897792"
+		}
+	},
+
+	"remoteInstances":
+	[
+		{
+			"identifier": "DeploymentGroupId",
+			"sqlServerName": "MSSQL-01",
+			"sqlInstanceName": "MSSQLSERVER",
+			"allowedSqlServerNames":
+			[
+				"MSSQL-01",
+				"MSSQL-01.addsys.local"
+			],
+			"version": "4.23.1",
+			"enabled": false,
+			"changeReference": "Call #123456ADD",
+			"notes": "Upgrading DBADash to Version 4.23.1"
+		}
+
+	],
+
+	"packages":
+	{
+		"4.22.1":
+		{
+			"sha256": "11AC660003B34034FA29D1964B58846A80E38EA0E4AAA4A18DEF2CC1BEC59EF3"
+		},
+
+		"4.23.0":
+		{
+			"sha256": "54A7ED9BBA5407AC8FCF45D1C5798D9D285F333F5627C848D9FB1F838BC4E12B"
+		},
+
+		"4.23.1":
+		{
+			"sha256": "F93D1E3E327C35FEA007D70B08128F1C6B71C47ECC30979A4F83C7E572897792"
+		}
+	}
+}
